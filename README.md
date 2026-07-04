@@ -14,7 +14,6 @@
 - Buy Now
 - Order Placement
 - Delete Account
-- Product Image Upload
 - Responsive Design
 - Django Admin Panel
 
