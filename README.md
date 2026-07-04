@@ -1,6 +1,6 @@
 🛒 Shop-Sphere
 
-A modern E-Commerce web application built using **Django**, **Bootstrap**, and **SQLite**.
+ A modern E-Commerce web application built using **Django**, **Bootstrap**, and **SQLite**.
 
 ✨ Features
 
