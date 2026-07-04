@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background:linear-gradient(135deg,#74ebd5,#9face6);
+            min-height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .register-card{
+            width:430px;
+            background:#fff;
+            border-radius:15px;
+            padding:30px;
+            box-shadow:0 10px 25px rgba(0,0,0,.2);
+        }
+
+        .title{
+            text-align:center;
+            font-size:28px;
+            font-weight:bold;
+            margin-bottom:20px;
+        }
+
+        label{
+            font-weight:600;
+            margin-bottom:5px;
+            display:block;
+        }
+
+        input{
+            width:100%;
+            padding:10px;
+            border:1px solid #ced4da;
+            border-radius:8px;
+            margin-bottom:5px;
+        }
+
+        input:focus{
+            outline:none;
+            border-color:#4e54c8;
+            box-shadow:0 0 5px rgba(78,84,200,.3);
+        }
+
+        .btn-register{
+            width:100%;
+            padding:10px;
+            background:#28a745;
+            color:#fff;
+            border:none;
+            border-radius:8px;
+            font-weight:bold;
+            transition:.3s;
+            margin-top:10px;
+        }
+
+        .btn-register:hover{
+            background:#218838;
+        }
+
+        .footer-text{
+            text-align:center;
+            margin-top:18px;
+        }
+
+        .footer-text a{
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        .errorlist{
+            list-style:none;
+            padding:0;
+            margin:0 0 8px;
+            color:#dc3545;
+            font-size:13px;
+        }
+
+        .field-error{
+            color:#dc3545;
+            font-size:13px;
+            margin-bottom:10px;
+        }
+
+        .helptext{
+            font-size:12px;
+            color:#6c757d;
+            margin-bottom:10px;
+            display:block;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="register-card">
+
+    <div class="title">📝 Create Account</div>
+
+    <form method="POST">
+
+        {% csrf_token %}
+
+        <!-- GLOBAL ERRORS -->
+        {{ form.non_field_errors }}
+
+        <!-- USERNAME -->
+        <label>Username</label>
+        {{ form.username }}
+        {% for error in form.username.errors %}
+            <div class="field-error">{{ error }}</div>
+        {% endfor %}
+
+        <!-- PASSWORD -->
+        <label>Password</label>
+        {{ form.password1 }}
+        {% for error in form.password1.errors %}
+            <div class="field-error">{{ error }}</div>
+        {% endfor %}
+
+        <!-- CONFIRM PASSWORD -->
+        <label>Confirm Password</label>
+        {{ form.password2 }}
+        {% for error in form.password2.errors %}
+            <div class="field-error">{{ error }}</div>
+        {% endfor %}
+
+        <button type="submit" class="btn-register">
+            Register
+        </button>
+
+    </form>
+
+    <div class="footer-text">
+        Already have an account?
+        <a href="/accounts/login/">Login</a>
+    </div>
+
+</div>
+
+</body>
+</html>
