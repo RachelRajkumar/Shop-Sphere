@@ -1,4 +1,5 @@
 from pathlib import Path
+from shopsphere.logging_config import LOGGING_CONFIG_DICT
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -27,6 +28,7 @@ INSTALLED_APPS = [
 
 # ---------------- MIDDLEWARE ----------------
 MIDDLEWARE = [
+    'shopsphere.middleware.RequestTimingMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -118,3 +120,6 @@ LOGOUT_REDIRECT_URL = '/accounts/login/'
 
 # ---------------- DEFAULT AUTO FIELD ----------------
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# ---------------- LOGGING ----------------
+LOGGING = LOGGING_CONFIG_DICT

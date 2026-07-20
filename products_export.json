@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "name": "Anklet",
+        "description": "Elegant silver anklet for women.",
+        "price": "399.00",
+        "stock": 20,
+        "category": {
+            "id": 1,
+            "name": "Accessories"
+        },
+        "image_url": "/media/products/Anklet_SUaIY77.jpg"
+    },
+    {
+        "id": 2,
+        "name": "School Bag",
+        "description": "Durable school backpack with multiple compartments.",
+        "price": "999.00",
+        "stock": 25,
+        "category": {
+            "id": 2,
+            "name": "Bags"
+        },
+        "image_url": "/media/products/Bag_qV6HrvD.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Black Scrunchie",
+        "description": "Soft black hair scrunchie",
+        "price": "99.00",
+        "stock": 50,
+        "category": {
+            "id": 1,
+            "name": "Accessories"
+        },
+        "image_url": "/media/products/Band_AYvhs8z.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Traditional Bangle",
+        "description": "Traditional gold-plated bangle.",
+        "price": "699.00",
+        "stock": 30,
+        "category": {
+            "id": 4,
+            "name": "Jewelry"
+        },
+        "image_url": "/media/products/Bangle_G2wMPn4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Nivea Body Wash",
+        "description": "Refreshing moisturizing body wash.",
+        "price": "299.00",
+        "stock": 40,
+        "category": {
+            "id": 5,
+            "name": "Personal Care"
+        },
+        "image_url": "/media/products/BodyWash_6Vq1Efz.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Center Hair Clip",
+        "description": "Stylish center hair clip.",
+        "price": "199.00",
+        "stock": 35,
+        "category": {
+            "id": 6,
+            "name": "Hair Accessories"
+        },
+        "image_url": "/media/products/Clip_x0ngBDt.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Wooden Comb",
+        "description": "Anti-static natural wooden comb.",
+        "price": "149.00",
+        "stock": 40,
+        "category": {
+            "id": 7,
+            "name": "Hair Care"
+        },
+        "image_url": "/media/products/Comb_LyS5WPG.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Plastic Comb",
+        "description": "Lightweight plastic comb.",
+        "price": "49.00",
+        "stock": 60,
+        "category": {
+            "id": 7,
+            "name": "Hair Care"
+        },
+        "image_url": "/media/products/Comb2_7fJjSU1.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Moisturizing Cream",
+        "description": "Nourishing moisturizing cream.",
+        "price": "349.00",
+        "stock": 25,
+        "category": {
+            "id": 9,
+            "name": "Skincare"
+        },
+        "image_url": "/media/products/Cream_qiheB8A.jpg"
+    },
+    {
+        "id": 10,
+        "name": "White Tea Cup",
+        "description": "Elegant white ceramic tea cup.",
+        "price": "199.00",
+        "stock": 20,
+        "category": {
+            "id": 10,
+            "name": "Kitchen"
+        },
+        "image_url": "/media/products/Cup_gO9Umtf.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Designer Earring",
+        "description": "Stylish designer earrings.",
+        "price": "499.00",
+        "stock": 20,
+        "category": {
+            "id": 4,
+            "name": "Jewelry"
+        },
+        "image_url": "/media/products/Earring_gmE4VBv.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Ring Earring",
+        "description": "Trendy ring earrings.",
+        "price": "299.00",
+        "stock": 25,
+        "category": {
+            "id": 4,
+            "name": "Jewelry"
+        },
+        "image_url": "/media/products/Earring2_c0VCTKj.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Blue Stone Earring",
+        "description": "Beautiful blue stone earrings.",
+        "price": "599.00",
+        "stock": 15,
+        "category": {
+            "id": 4,
+            "name": "Jewelry"
+        },
+        "image_url": "/media/products/Earring3_QRtL9uY.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Eyebrow Oil",
+        "description": "Eyebrow growth nourishing oil.",
+        "price": "249.00",
+        "stock": 20,
+        "category": {
+            "id": 14,
+            "name": "Beauty"
+        },
+        "image_url": "/media/products/EyebrowOil_FRQ13zB.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Himalaya Face Wash",
+        "description": "Gentle herbal face wash.",
+        "price": "199.00",
+        "stock": 35,
+        "category": {
+            "id": 9,
+            "name": "Skincare"
+        },
+        "image_url": "/media/products/FaceWash_yq3JRbf.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Men's Face Wash",
+        "description": "Deep cleansing men's face wash.",
+        "price": "249.00",
+        "stock": 25,
+        "category": {
+            "id": 9,
+            "name": "Skincare"
+        },
+        "image_url": "/media/products/FaceWash2_BnvMhbN.jpg"
+    },
+    {
+        "id": 17,
+        "name": "White Wedding Frock",
+        "description": "Elegant white wedding frock.",
+        "price": "3999.00",
+        "stock": 10,
+        "category": {
+            "id": 17,
+            "name": "Fashion"
+        },
+        "image_url": "/media/products/Frok_rhWjdG8.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Women's Gown",
+        "description": "Stylish women's party gown.",
+        "price": "250.00",
+        "stock": 15,
+        "category": {
+            "id": 17,
+            "name": "Fashion"
+        },
+        "image_url": "/media/products/Gown_DbxB3gK.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Leather Handbag",
+        "description": "Premium leather handbag.",
+        "price": "1700.00",
+        "stock": 20,
+        "category": {
+            "id": 2,
+            "name": "Bags"
+        },
+        "image_url": "/media/products/HandBag_AMNHjeR.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Red Sling Bag",
+        "description": "Trendy red sling bag.",
+        "price": "899.00",
+        "stock": 20,
+        "category": {
+            "id": 2,
+            "name": "Bags"
+        },
+        "image_url": "/media/products/HandBag2_Wbgs85B.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Red Hat",
+        "description": "Stylish red casual hat.",
+        "price": "499.00",
+        "stock": 15,
+        "category": {
+            "id": 17,
+            "name": "Fashion"
+        },
+        "image_url": "/media/products/Hat_wf0Qr8C.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Bluetooth Headset",
+        "description": "Wireless Bluetooth headset.",
+        "price": "1499.00",
+        "stock": 20,
+        "category": {
+            "id": 22,
+            "name": "Electronics"
+        },
+        "image_url": "/media/products/HeadSet_yfNtGlY.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Red Heels",
+        "description": "Stylish red high heels.",
+        "price": "1899.00",
+        "stock": 12,
+        "category": {
+            "id": 23,
+            "name": "Footwear"
+        },
+        "image_url": "/media/products/Heels_AVKaLWA.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Red Hoodie",
+        "description": "Comfortable red hoodie.",
+        "price": "999.00",
+        "stock": 18,
+        "category": {
+            "id": 17,
+            "name": "Fashion"
+        },
+        "image_url": "/media/products/Hoodie_rKgQj25.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Kids Barbie School Bag",
+        "description": "Barbie printed school bag for kids.",
+        "price": "1300.00",
+        "stock": 13,
+        "category": {
+            "id": 2,
+            "name": "Bags"
+        },
+        "image_url": "/media/products/KidsBag_344gnzs.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Kids Gown",
+        "description": "Beautiful girls' party gown.",
+        "price": "1299.00",
+        "stock": 15,
+        "category": {
+            "id": 17,
+            "name": "Fashion"
+        },
+        "image_url": "/media/products/KidsGown_OeOFoB3.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Laptop",
+        "description": "High-performance laptop.",
+        "price": "54999.00",
+        "stock": 10,
+        "category": {
+            "id": 22,
+            "name": "Electronics"
+        },
+        "image_url": "/media/products/Laptop_SP77v7T.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Victus Laptop",
+        "description": "HP Victus gaming laptop.",
+        "price": "74999.00",
+        "stock": 8,
+        "category": {
+            "id": 22,
+            "name": "Electronics"
+        },
+        "image_url": "/media/products/Laptop2_5YfimWJ.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Lipstick",
+        "description": "Long-lasting matte lipstick",
+        "price": "399.00",
+        "stock": 50,
+        "category": {
+            "id": 14,
+            "name": "Beauty"
+        },
+        "image_url": "/media/products/LipStick_BaKRHsy.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Makeup Kit",
+        "description": "Complete makeup kit.",
+        "price": "1999.00",
+        "stock": 15,
+        "category": {
+            "id": 14,
+            "name": "Beauty"
+        },
+        "image_url": "/media/products/Makeup_0lsWDqN.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Blue Stone Necklace",
+        "description": "Elegant blue stone necklace.",
+        "price": "999.00",
+        "stock": 20,
+        "category": {
+            "id": 4,
+            "name": "Jewelry"
+        },
+        "image_url": "/media/products/Necklace_zkaAP8B.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Green Stone Necklace",
+        "description": "Stylish green stone necklace.",
+        "price": "999.00",
+        "stock": 20,
+        "category": {
+            "id": 4,
+            "name": "Jewelry"
+        },
+        "image_url": "/media/products/Necklace2_VhzQxYn.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Perfume",
+        "description": "Long-lasting premium perfume.",
+        "price": "799.00",
+        "stock": 25,
+        "category": {
+            "id": 14,
+            "name": "Beauty"
+        },
+        "image_url": "/media/products/Perfume_FOjmwFT.jpg"
+    },
+    {
+        "id": 34,
+        "name": "White Stone Ring",
+        "description": "Beautiful white stone ring.",
+        "price": "499.00",
+        "stock": 20,
+        "category": {
+            "id": 4,
+            "name": "Jewelry"
+        },
+        "image_url": "/media/products/Ring_YgDv73O.jpg"
+    },
+    {
+        "id": 35,
+        "name": "Hand Sanitizer",
+        "description": "Alcohol-based hand sanitizer.",
+        "price": "149.00",
+        "stock": 40,
+        "category": {
+            "id": 5,
+            "name": "Personal Care"
+        },
+        "image_url": "/media/products/Sanitizer_1AITAsl.jpg"
+    },
+    {
+        "id": 36,
+        "name": "Pink Silk Saree",
+        "description": "Premium pink silk saree.",
+        "price": "2999.00",
+        "stock": 10,
+        "category": {
+            "id": 17,
+            "name": "Fashion"
+        },
+        "image_url": "/media/products/Saree_5Yq4nHW.jpg"
+    },
+    {
+        "id": 37,
+        "name": "Purple Saree",
+        "description": "Elegant purple saree.",
+        "price": "2499.00",
+        "stock": 12,
+        "category": {
+            "id": 17,
+            "name": "Fashion"
+        },
+        "image_url": "/media/products/Saree2_m2DzbHo.jpg"
+    },
+    {
+        "id": 38,
+        "name": "Brown Designer Saree",
+        "description": "Designer brown saree.",
+        "price": "3499.00",
+        "stock": 10,
+        "category": {
+            "id": 17,
+            "name": "Fashion"
+        },
+        "image_url": "/media/products/Saree3_MReB5yd.jpg"
+    },
+    {
+        "id": 39,
+        "name": "Yellow Half Saree",
+        "description": "Traditional yellow half saree.",
+        "price": "2799.00",
+        "stock": 12,
+        "category": {
+            "id": 17,
+            "name": "Fashion"
+        },
+        "image_url": "/media/products/Saree4_PUAOerx.jpg"
+    },
+    {
+        "id": 40,
+        "name": "Face Serum",
+        "description": "Hydrating face serum.",
+        "price": "699.00",
+        "stock": 25,
+        "category": {
+            "id": 14,
+            "name": "Beauty"
+        },
+        "image_url": "/media/products/Serum_1kWUoz2.jpg"
+    },
+    {
+        "id": 41,
+        "name": "Face Serum",
+        "description": "Hydrating face serum.",
+        "price": "799.00",
+        "stock": 20,
+        "category": {
+            "id": 14,
+            "name": "Beauty"
+        },
+        "image_url": "/media/products/Serum2_nq0M8yr.jpg"
+    },
+    {
+        "id": 42,
+        "name": "Shampoo",
+        "description": "Nourishing hair shampoo.",
+        "price": "349.00",
+        "stock": 35,
+        "category": {
+            "id": 7,
+            "name": "Hair Care"
+        },
+        "image_url": "/media/products/Shampoo_knHNs3P.jpg"
+    },
+    {
+        "id": 43,
+        "name": "Red Running Shoes",
+        "description": "Lightweight red running shoes.",
+        "price": "2300.00",
+        "stock": 15,
+        "category": {
+            "id": 23,
+            "name": "Footwear"
+        },
+        "image_url": "/media/products/Shoe_VR8TGjy.jpg"
+    },
+    {
+        "id": 44,
+        "name": "Black Formal Shoes",
+        "description": "Professional black polished men's shoes.",
+        "price": "2500.00",
+        "stock": 15,
+        "category": {
+            "id": 23,
+            "name": "Footwear"
+        },
+        "image_url": "/media/products/Shoe2_o8x2m9i.jpg"
+    },
+    {
+        "id": 45,
+        "name": "Sweater",
+        "description": "Warm and comfortable sweater.",
+        "price": "899.00",
+        "stock": 20,
+        "category": {
+            "id": 17,
+            "name": "Fashion"
+        },
+        "image_url": "/media/products/Sweater_oYwlH0s.jpg"
+    },
+    {
+        "id": 46,
+        "name": "Soft Toys",
+        "description": "Cute soft plush toy.",
+        "price": "599.00",
+        "stock": 25,
+        "category": {
+            "id": 46,
+            "name": "Toys"
+        },
+        "image_url": "/media/products/Toys_dwPgfzA.jpg"
+    },
+    {
+        "id": 47,
+        "name": "Blue T-Shirt",
+        "description": "Comfortable blue cotton t-shirt.",
+        "price": "599.00",
+        "stock": 30,
+        "category": {
+            "id": 17,
+            "name": "Fashion"
+        },
+        "image_url": "/media/products/T-Shirt_h5K1lCV.jpg"
+    },
+    {
+        "id": 48,
+        "name": "Smart Watch",
+        "description": "Bluetooth fitness smartwatch.",
+        "price": "2499.00",
+        "stock": 15,
+        "category": {
+            "id": 22,
+            "name": "Electronics"
+        },
+        "image_url": "/media/products/Watch_Ciynyg8.jpg"
+    },
+    {
+        "id": 49,
+        "name": "Green Coated Water Bottle",
+        "description": "Insulated green coated water bottle.",
+        "price": "499.00",
+        "stock": 25,
+        "category": {
+            "id": 10,
+            "name": "Kitchen"
+        },
+        "image_url": "/media/products/WaterBottle_uLB8OLz.jpg"
+    },
+    {
+        "id": 50,
+        "name": "Glass Water Bottle",
+        "description": "Premium reusable glass water bottle.",
+        "price": "399.00",
+        "stock": 20,
+        "category": {
+            "id": 10,
+            "name": "Kitchen"
+        },
+        "image_url": "/media/products/WaterBottle2_NK5SMBi.jpg"
+    }
+]
